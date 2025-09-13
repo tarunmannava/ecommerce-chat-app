@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "npx ts-node index.ts",
+    "seed": "npx ts-node seed-database.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.72",
+    "@langchain/google-genai": "^0.2.16",
+    "@langchain/langgraph": "^0.4.7",
+    "@langchain/langgraph-checkpoint-mongodb": "^0.1.1",
+    "@langchain/mongodb": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "langchain": "^0.3.31",
+    "mongodb": "^6.19.0",
+    "zod": "^4.1.5"
+  }
+}
